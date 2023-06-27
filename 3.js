@@ -24,13 +24,11 @@ function f1 () {
     if (nums[k]>1){nums[k]=0}
     this.innerHTML = '<img src='+pics[nums[k]]+'>'
 }
-
-function f2(){
-    let num = 0
+let num = 0
+onclick = () => {
     num += 100
     out.innerHTML = num
 }
-
 
 const pics = ['', 'shar.png']
 
